@@ -130,7 +130,7 @@ kubernetes                          ClusterIP   10.96.0.1     <none>        443/
 Now let's configure port forwarding like with Docker, execute:
 `kubectl port-forward service/gradle-spring-boot-deploy-example 801:8080`
 
-Open `localhost:801` in web browser, and we should se same 
+Open `localhost:801` in web browser, and we should see same 
 response that have with docker only :)
 
 To terminate port forwarding we can press `Ctrl + C`
